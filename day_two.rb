@@ -4,6 +4,10 @@ def day_two(arr, target_number)
   99.times do |one|
     99.times do |two|
       returned_array = day_two_part_one(arr, one, two)
+      if (return_array[0] == target_number)
+        p one
+        p two
+        return 'done'
     end
   end
 end
